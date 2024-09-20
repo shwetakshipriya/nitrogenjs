@@ -120,7 +120,7 @@ window.onload = function() {
 };
 
 function fetchData() {
-  const filePath = '../dataset/data.xlsx';
+  const filePath = 'data.xlsx';
 
   // Fetch and parse Excel file
   fetch(filePath)
